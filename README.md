@@ -61,17 +61,12 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
     * 45000 to 49999
     * Greater than or equal to 50000
 
-    ![Goal Outcomes](Images/GoalOutcomes.PNG)
 
   * Using the `COUNTIFS()` formula, count how many successful, failed, and canceled projects were created with goals within those ranges listed above. Populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
 
   * Add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematic formulae, find the percentage of projects which were successful, failed, or were canceled per goal range.
 
   * Create a line chart which graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
-
-## Submission
-
-* To submit, please upload to Github repo and submit the link to repo to <https://bootcampspot-v2.com/>.
 
 - - -
 
