@@ -1,12 +1,12 @@
-## Background
+# Excel Master
+
+# Background
 
 Over two billion dollars have been raised using the massively successful crowdfunding service, Kickstarter, but not every project has found success. Of the over 300,000 projects launched on Kickstarter, only a third have made it through the funding process with a positive outcome.
 
 Since getting funded on Kickstarter requires meeting or exceeding the project's initial goal, many organizations spend months looking through past projects in an attempt to discover some trick to finding success. For this week's homework, you will organize and analyze a database of four thousand past projects in order to uncover any hidden trends.
 
-## Instructions
-
-* Using the Excel table provided, you will be modifying and analyzing the data of four thousand past Kickstarter projects as you attempt to uncover some of the market trends.
+# Goal
 
 * Use conditional formatting to fill each cell in the `state` column with a different color, depending on whether the associated campaign was "successful," "failed," "cancelled," or is currently "live".
 
@@ -26,23 +26,22 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
 
     * Create a stacked column pivot chart that can be filtered by `country` and `parent-category` based on the table you have created.
 
-* The dates stored within the `deadline` and `launched_at` columns are using unix timestamps. Fortunately for us, [there is a formula](http://spreadsheetpage.com/index.php/tip/converting_unix_timestamps/) out there that can be used to convert these timestamps into a normal date.
+* The dates stored within the `deadline` and `launched_at` columns are using unix timestamps. Fortunately for (http://spreadsheetpage.com/index.php/tip/converting_unix_timestamps/) out there that can be used to convert these timestamps into a normal date.
 
-  * Create a new column named `Date Created Conversion` that will use [this formula](http://spreadsheetpage.com/index.php/tip/converting_unix_timestamps/) to convert the data contained within `launched_at` into Excel's Date format
+  * Create a new column named `Date Created Conversion`(http://spreadsheetpage.com/index.php/tip/converting_unix_timestamps/) to convert the data contained within `launched_at` into Excel's Date format
 
-  * Create a new column named `Date Ended Conversion` that will use [this formula](http://spreadsheetpage.com/index.php/tip/converting_unix_timestamps/) to convert the data contained within `deadline` into Excel's Date format
+  * Create a new column named `Date Ended Conversion` (http://spreadsheetpage.com/index.php/tip/converting_unix_timestamps/) to convert the data contained within `deadline` into Excel's Date format
 
   * Create a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
 
   * Now create a pivot chart line graph that visualizes this new table.
-
+#
 * Create a report in Microsoft Word and answer the following questions...
 
 1. What are three conclusions we can make about Kickstarter campaigns given the provided data?
 2. What are some of the limitations of this dataset?
 3. What are some other possible tables/graphs that we could create?
-
-## Bonus
+#
 
 * Create a new sheet with 8 columns: `Goal`, `Number Successful`, `Number Failed`, `Number Canceled`, `Total Projects`, `Percentage Successful`, `Percentage Failed`, and `Percentage Canceled`
 
@@ -60,16 +59,28 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
     * 40000 to 44999
     * 45000 to 49999
     * Greater than or equal to 50000
-
-
+#
   * Using the `COUNTIFS()` formula, count how many successful, failed, and canceled projects were created with goals within those ranges listed above. Populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
 
   * Add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematic formulae, find the percentage of projects which were successful, failed, or were canceled per goal range.
 
   * Create a line chart which graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
-- - -
 
-### Copyright
+# Findings
 
-Trilogy Education Services © 2017. All Rights Reserved.
+![x](Images/CategoryStats.PNG)
+
+![x](Images/DateConversion.PNG)
+
+![x](Images/FullTable.PNG)
+
+![x](Images/GoalOutcomes.PNG)
+
+![x](Images/LaunchDateOutcomes.PNG)
+
+![x](Images/PercentageFundedFormat.PNG)
+
+![x](Images/SubcategoryStats.PNG)
+
+
