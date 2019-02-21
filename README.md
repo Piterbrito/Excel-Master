@@ -20,11 +20,11 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
 
   * Create a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were "successful," "failed," "cancelled," or are currently "live" per **category**.
 
-    * Create a stacked column pivot chart that can be filtered by `country` based on the table you have created.
+  * Create a stacked column pivot chart that can be filtered by `country` based on the table you have created.
 
   * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were "successful," "failed," "cancelled," or are currently "live" per **sub-category**.
 
-    * Create a stacked column pivot chart that can be filtered by `country` and `parent-category` based on the table you have created.
+  * Create a stacked column pivot chart that can be filtered by `country` and `parent-category` based on the table you have created.
 
 * The dates stored within the `deadline` and `launched_at` columns are using unix timestamps. Fortunately for (http://spreadsheetpage.com/index.php/tip/converting_unix_timestamps/) out there that can be used to convert these timestamps into a normal date.
 
@@ -36,13 +36,6 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
 
   * Now create a pivot chart line graph that visualizes this new table.
 #
-* Create a report in Microsoft Word and answer the following questions...
-
-1. What are three conclusions we can make about Kickstarter campaigns given the provided data?
-2. What are some of the limitations of this dataset?
-3. What are some other possible tables/graphs that we could create?
-#
-
 * Create a new sheet with 8 columns: `Goal`, `Number Successful`, `Number Failed`, `Number Canceled`, `Total Projects`, `Percentage Successful`, `Percentage Failed`, and `Percentage Canceled`
 
   * In the `goal` column, create twelve rows with the following headers...
@@ -70,17 +63,23 @@ Since getting funded on Kickstarter requires meeting or exceeding the project's 
 # Findings
 
 ![x](Images/CategoryStats.PNG)
+#
 
 ![x](Images/DateConversion.PNG)
+#
 
 ![x](Images/FullTable.PNG)
+#
 
 ![x](Images/GoalOutcomes.PNG)
+#
 
 ![x](Images/LaunchDateOutcomes.PNG)
+#
 
 ![x](Images/PercentageFundedFormat.PNG)
+#
 
 ![x](Images/SubcategoryStats.PNG)
-
+#
 
